@@ -1,0 +1,8 @@
+#chatBoard {
+    max-height: 20rem;
+    overflow-y: scroll;
+}
+
+.list-group-item {
+    cursor: pointer;
+}

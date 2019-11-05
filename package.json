@@ -1,0 +1,37 @@
+{
+  "name": "mediapark_chat_api",
+  "version": "1.0.0",
+  "description": "http api sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artur-sim/http_chat_api.git"
+  },
+  "keywords": [
+    "chat",
+    "api"
+  ],
+  "author": "Artur Odekov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artur-sim/http_chat_api/issues"
+  },
+  "homepage": "https://github.com/artur-sim/http_chat_api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.1.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "socket.io": "^2.3.0"
+  }
+}
